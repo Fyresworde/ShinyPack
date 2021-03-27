@@ -14,7 +14,7 @@
 	#Enable Footprint particle effects
 	"Enable Footprint Particles" = true
 	#Use first person footstep cadence
-	"First Person Cadence" = true
+	"First Person Cadence" = false
 	#Style of footprint to display for a player
 	#Allowed Values: SHOE, SQUARE, HORSESHOE, BIRD, PAW, SQUARE_SOLID, LOWRES_SQUARE
 	"Player Footprint Style" = "LOWRES_SQUARE"
@@ -39,11 +39,11 @@
 	#Show arrow particle trail during flight
 	"Show Arrow Particle Trail" = false
 	#Enable toolbar item sound effects
-	"Enable Toolbar Sound Effects" = true
+	"Enable Toolbar Sound Effects" = false
 	#Enable bow/crossbow sound effects
 	"Enable Bow Sound Effects" = true
 	#Enable item swing sound effects
-	"Enable Item Swing Sound Effects" = true
+	"Enable Item Swing Sound Effects" = false
 	#Toolbar master volume scale
 	#Range: 0 ~ 100
 	"Toolbar Volume Scale" = 35
