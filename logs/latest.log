@@ -1,44 +1,464 @@
-[16:52:54] [main/INFO]: ModLauncher running: args [--username, Fyresworde, --version, forge-36.1.0, --gameDir, C:\Users\gavin\Documents\curseforge\minecraft\Instances\Shiny Valley, --assetsDir, C:\Users\gavin\Documents\curseforge\minecraft\Install\assets, --assetIndex, 1.16, --uuid, c1bc247c366c48aca8150bb406ce521c, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 1024, --height, 768, --launchTarget, fmlclient, --fml.forgeVersion, 36.1.0, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
-[16:52:54] [main/INFO]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_51 by Oracle Corporation
-[16:52:54] [main/WARN]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
-[16:52:55] [main/INFO]: Added Lets Encrypt root certificates as additional trust
-[16:52:55] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/gavin/Documents/curseforge/minecraft/Install/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
-[16:52:55] [main/WARN]: Configuration file C:\Users\gavin\Documents\curseforge\minecraft\Instances\Shiny Valley\config\fml.toml is not correct. Correcting
-[16:52:55] [main/WARN]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[16:52:56] [main/INFO]: Launching target 'fmlclient' with arguments [--version, forge-36.1.0, --gameDir, C:\Users\gavin\Documents\curseforge\minecraft\Instances\Shiny Valley, --assetsDir, C:\Users\gavin\Documents\curseforge\minecraft\Install\assets, --uuid, c1bc247c366c48aca8150bb406ce521c, --username, Fyresworde, --assetIndex, 1.16, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 1024, --height, 768]
-[16:53:02] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:53:02] [Render thread/INFO]: Setting user: Fyresworde
-[16:53:02] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
-[16:53:03] [modloading-worker-2/INFO]: Forge mod loading, version 36.1.0, for MC 1.16.5 with MCP 20210115.111550
-[16:53:03] [modloading-worker-2/INFO]: MinecraftForge v36.1.0 Initialized
-[16:53:04] [Render thread/INFO]: Narrator library for x64 successfully loaded
-[16:53:04] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
-[16:53:04] [modloading-worker-9/WARN]: Configuration file C:\Users\gavin\Documents\curseforge\minecraft\Instances\Shiny Valley\config\forge-client.toml is not correct. Correcting
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key client.zoomInMissingModelTextInGui was corrected from null to its default, false. 
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key client.forgeCloudsEnabled was corrected from null to its default, true. 
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key client.disableStairSlabCulling was corrected from null to its default, false. 
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key client.forgeLightPipelineEnabled was corrected from null to its default, true. 
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key client.selectiveResourceReloadEnabled was corrected from null to its default, true. 
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
-[16:53:04] [modloading-worker-9/WARN]: Configuration file C:\Users\gavin\Documents\curseforge\minecraft\Instances\Shiny Valley\config\forge-common.toml is not correct. Correcting
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[16:53:04] [modloading-worker-9/WARN]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
-[16:53:05] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[16:53:05] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 36.1.0 Target: null
-[16:53:09] [Render thread/INFO]: OpenAL initialized.
-[16:53:09] [Render thread/INFO]: Sound engine started
-[16:53:09] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[16:53:09] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[16:53:09] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[16:53:09] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[16:53:09] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[16:53:09] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[16:53:09] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[16:53:10] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[16:53:10] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[16:53:10] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[16:53:14] [Render thread/INFO]: Stopping!
+[17:04:07] [main/INFO]: ModLauncher running: args [--username, CalaMariGold, --version, forge-36.1.0, --gameDir, C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley, --assetsDir, C:\Users\Mari\Twitch\Minecraft\Install\assets, --assetIndex, 1.16, --uuid, d9f225140b2b4c48bbd348648d2e2e73, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 1024, --height, 768, --launchTarget, fmlclient, --fml.forgeVersion, 36.1.0, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210115.111550]
+[17:04:07] [main/INFO]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_51 by Oracle Corporation
+[17:04:07] [main/WARN]: LEGACY JDK DETECTED, SECURED JAR HANDLING DISABLED
+[17:04:08] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[17:04:08] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Mari/Twitch/Minecraft/Install/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[17:04:09] [main/INFO]: Launching target 'fmlclient' with arguments [--version, forge-36.1.0, --gameDir, C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley, --assetsDir, C:\Users\Mari\Twitch\Minecraft\Install\assets, --uuid, d9f225140b2b4c48bbd348648d2e2e73, --username, CalaMariGold, --assetIndex, 1.16, --accessToken, ????????, --userType, mojang, --versionType, release, --width, 1024, --height, 768]
+[17:04:16] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:04:16] [Render thread/INFO]: Setting user: CalaMariGold
+[17:04:16] [Render thread/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[17:04:17] [modloading-worker-15/INFO]: Forge mod loading, version 36.1.0, for MC 1.16.5 with MCP 20210115.111550
+[17:04:17] [modloading-worker-29/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Main.initialize()
+[17:04:17] [modloading-worker-15/INFO]: MinecraftForge v36.1.0 Initialized
+[17:04:17] [modloading-worker-29/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Generating the config file at: C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\MouseTweaks.cfg
+[17:04:17] [modloading-worker-29/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Created the config file.
+[17:04:17] [modloading-worker-18/INFO]: Loading config: C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\byg\byg-world.toml
+[17:04:17] [modloading-worker-18/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\byg\byg-world.toml is not correct. Correcting
+[17:04:17] [modloading-worker-29/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Reflecting GuiContainer...
+[17:04:17] [modloading-worker-22/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\appleskin-client.toml is not correct. Correcting
+[17:04:17] [modloading-worker-18/WARN]: Incorrect key Overworld was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:17] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:17] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores.Ametrine was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:17] [modloading-worker-29/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Detected obfuscation: FORGE.
+[17:04:17] [modloading-worker-22/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:17] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores.Ametrine.GenerateAmetrine was corrected from null to its default, true. 
+[17:04:17] [modloading-worker-22/WARN]: Incorrect key client.showFoodValuesInTooltip was corrected from null to its default, true. 
+[17:04:17] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores.Ametrine.AmetrineY was corrected from null to its default, 56. 
+[17:04:17] [modloading-worker-22/WARN]: Incorrect key client.showFoodValuesInTooltipAlways was corrected from null to its default, true. 
+[17:04:17] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores.Ametrine.AmetrineSize was corrected from null to its default, 4. 
+[17:04:17] [modloading-worker-29/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Success.
+[17:04:18] [modloading-worker-22/WARN]: Incorrect key client.showSaturationHudOverlay was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores.Ametrine.AmetrinePerChunk was corrected from null to its default, 10. 
+[17:04:18] [modloading-worker-29/INFO]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Initialized.
+[17:04:18] [modloading-worker-22/WARN]: Incorrect key client.showFoodValuesHudOverlay was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores.Pendorite was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:18] [modloading-worker-22/WARN]: Incorrect key client.showFoodExhaustionHudUnderlay was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores.Pendorite.GeneratePendorite was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-22/WARN]: Incorrect key client.showFoodStatsInDebugOverlay was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores.Pendorite.PendoriteY was corrected from null to its default, 56. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores.Pendorite.PendoriteSize was corrected from null to its default, 4. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Ores.Pendorite.PendoritePerChunk was corrected from null to its default, 10. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Rocky_Stone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Rocky_Stone.GenerateRockyStone was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Rocky_Stone.RockyStoneY was corrected from null to its default, 63. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Rocky_Stone.RockyStoneSize was corrected from null to its default, 20. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Rocky_Stone.RockyStonePerChunk was corrected from null to its default, 10. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Scoria_Stone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Scoria_Stone.GenerateScoriaStone was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Scoria_Stone.ScoriaStoneY was corrected from null to its default, 63. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Scoria_Stone.ScoriaStoneSize was corrected from null to its default, 20. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Scoria_Stone.ScoriaStonePerChunk was corrected from null to its default, 10. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Soap_Stone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Soap_Stone.GenerateSoapStone was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Soap_Stone.SoapStoneY was corrected from null to its default, 63. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Soap_Stone.SoapStoneSize was corrected from null to its default, 20. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key Overworld.Stones.Soap_Stone.SoapStonePerChunk was corrected from null to its default, 10. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_End was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_End.ControlEnd was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_End.Void was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_End.Void.VoidBiomeSize was corrected from null to its default, 2. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_End.EndBiomeSize was corrected from null to its default, 3. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_End.IslandBiomeSize was corrected from null to its default, 3. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_Nether was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_Nether.ControlNether was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_Nether.isBlacklistNether was corrected from null to its default, true. 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_Nether.BlacklistNether was corrected from null to its default, . 
+[17:04:18] [modloading-worker-18/WARN]: Incorrect key The_Nether.NetherBiomeSize was corrected from null to its default, 3. 
+[17:04:20] [Render thread/INFO]: BYG: Blocks registered!
+[17:04:20] [Render thread/INFO]: BYG: Items registered!
+[17:04:20] [Render thread/INFO]: BYG: Entities registered!
+[17:04:22] [Render thread/INFO]: BYG: Biomes registered!
+[17:04:22] [Render thread/INFO]: BYG: Registering block placer types!
+[17:04:22] [Render thread/INFO]: BYG: Decorators registered!
+[17:04:22] [Render thread/INFO]: BYG: Features registered!
+[17:04:22] [Render thread/INFO]: BYG: Structures registered!
+[17:04:22] [Render thread/INFO]: BYG: Surface builders Registered!
+[17:04:24] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[17:04:24] [Render thread/INFO]: Reloading ResourceManager: Default, Mod Resources
+[17:04:24] [modloading-worker-18/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\dsurround\sndctrl-client.toml is not correct. Correcting
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Enable Enhanced Sounds was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Enable Stereo to Mono Conversion was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Enable Sound Occlusion Calculations was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Occlude WEATHER Sounds was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Occlude RECORDS Sounds was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Individual Sound Config was corrected from null to its default, [minecraft:entity.sheep.ambient cull, minecraft:entity.chicken.ambient cull, minecraft:entity.cow.ambient cull, minecraft:entity.pig.ambient cull, minecraft:entity.llama.ambient cull, minecraft:entity.wither.spawn cull 10, minecraft:entity.wither.death cull 10, minecraft:entity.dragon.spawn cull 10, minecraft:entity.dragon.death cull 10]. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Startup Sound List was corrected from null to its default, [minecraft:entity.experience_orb.pickup, minecraft:entity.chicken.egg, minecraft:ambient.underwater.exit]. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Sound Culling Interval was corrected from null to its default, 20. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Background Workers was corrected from null to its default, 0. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Replace Randoms was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Block Range was corrected from null to its default, 24. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Logging Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Logging Options.Debug Logging was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Logging Options.Debug Flag Mask was corrected from null to its default, 0. 
+[17:04:24] [modloading-worker-18/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\dsurround\mobeffects-client.toml is not correct. Correcting
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Logging Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Logging Options.Debug Logging was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Logging Options.Debug Flag Mask was corrected from null to its default, 0. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Footstep Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Footstep Options.Enable Footprint Sound Effects was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Footstep Options.Enable Footprint Particles was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Footstep Options.First Person Cadence was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Footstep Options.Player Footprint Style was corrected from null to its default, LOWRES_SQUARE. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Footstep Options.Footsteps as Quadruped was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Footstep Options.Footstep Volume Scale was corrected from null to its default, 40. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Footstep Options.Enable Armor Accents was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Footstep Options.Enable Rain Splash Accents was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Footstep Options.Enable Waterlogged Accents was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Mob Effect Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Mob Effect Options.Hide Player Potion Particles was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Mob Effect Options.Show Breath Effect was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Mob Effect Options.Show Arrow Particle Trail was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Mob Effect Options.Enable Toolbar Sound Effects was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Mob Effect Options.Enable Bow Sound Effects was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Mob Effect Options.Enable Item Swing Sound Effects was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Mob Effect Options.Toolbar Volume Scale was corrected from null to its default, 35. 
+[17:04:24] [modloading-worker-18/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\treechop-client.toml is not correct. Correcting
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key chopping was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key chopping.choppingEnabled was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key chopping.fellingEnabled was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key chopping.sneakBehavior was corrected from null to its default, INVERT CHOPPING. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key chopping.onlyBreakTreesWithLeaves was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key chopping.chopInCreativeMode was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key visuals was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key visuals.useProceduralChoppedModels was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key visuals.removeBarkOnInteriorLogs was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\dsurround\environs-client.toml is not correct. Correcting
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Logging Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Logging Options.Debug Logging was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Logging Options.Debug Flag Mask was corrected from null to its default, 0. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Biome Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Biome Options.Overworld Sealevel Override was corrected from null to its default, 0. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Biome Options.Dimension Blacklist was corrected from null to its default, []. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Fireflies was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Steam Jets was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Fire Jets was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Bubble Jets was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Dust Jets was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Fountain Jets was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Waterfall Splash was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Disable Underwater Particles was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Water Ripples was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Auroras was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Effect Options.Maximum Bands was corrected from null to its default, 3. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Fog Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Fog Options.Enable Fog Processing was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Fog Options.Biome Fog was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Fog Options.Elevation Haze was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Fog Options.Morning Fog was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Fog Options.Bedrock Fog was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Fog Options.Weather Fog was corrected from null to its default, true. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Fog Options.Morning Fog Chance was corrected from null to its default, 1. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Biome Sound Volume was corrected from null to its default, 100. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Spot Sound Volume was corrected from null to its default, 100. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Waterfall Volume was corrected from null to its default, 100. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key Sound Options.Occlude WATERFALL sounds was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\jei-client.toml is not correct. Correcting
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key advanced was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key advanced.DebugMode was corrected from null to its default, false. 
+[17:04:24] [Thread-1/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\dsurround\environs-client.toml is not correct. Correcting
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key advanced.CenterSearch was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key advanced.LowMemorySlowSearchEnabled was corrected from null to its default, false. 
+[17:04:24] [modloading-worker-18/WARN]: Incorrect key advanced.GiveMode was corrected from null to its default, MOUSE_PICKUP. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key advanced.MaxColumns was corrected from null to its default, 100. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key advanced.RecipeGuiHeight was corrected from null to its default, 350. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key colors was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key colors.SearchColors was corrected from null to its default, [White:EEEEEE, LightBlue:7492cc, Cyan:00EEEE, Blue:2222dd, LapisBlue:25418b, Teal:008080, Yellow:cacb58, GoldenYellow:EED700, Orange:d97634, Pink:D1899D, HotPink:FC0FC0, Magenta:b24bbb, Purple:813eb9, JadedPurple:43324f, EvilPurple:2e1649, Lavender:B57EDC, Indigo:480082, Sand:dbd3a0, Tan:bb9b63, LightBrown:A0522D, Brown:634b33, DarkBrown:3a2d13, LimeGreen:43b239, SlimeGreen:83cb73, Green:008000, DarkGreen:224d22, GrassGreen:548049, Red:963430, BrickRed:b0604b, NetherBrick:2a1516, Redstone:ce3e36, Black:181515, CharcoalGray:464646, IronGray:646464, Gray:808080, Silver:C0C0C0]. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key sorting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key sorting.IngredientSortStages was corrected from null to its default, [MOD_NAME, INGREDIENT_TYPE, CREATIVE_MENU]. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key search was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key search.ModNameSearchMode was corrected from null to its default, REQUIRE_PREFIX. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key search.TooltipSearchMode was corrected from null to its default, ENABLED. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key search.TagSearchMode was corrected from null to its default, REQUIRE_PREFIX. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key search.CreativeTabSearchMode was corrected from null to its default, DISABLED. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key search.ColorSearchMode was corrected from null to its default, DISABLED. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key search.ResourceIdSearchMode was corrected from null to its default, DISABLED. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key search.SearchAdvancedTooltips was corrected from null to its default, false. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key modname was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key modname.ModNameFormat was corrected from null to its default, blue italic. 
+[17:04:25] [modloading-worker-18/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\dsurround\dsurround-client.toml is not correct. Correcting
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key Logging Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key Logging Options.Debug Logging was corrected from null to its default, false. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key Logging Options.Online Version Check Result was corrected from null to its default, true. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key Logging Options.Debug Flag Mask was corrected from null to its default, 0. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key Light Level HUD Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key Light Level HUD Options.Color Set was corrected from null to its default, BRIGHT. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key Light Level HUD Options.Display Mode was corrected from null to its default, BLOCK. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key Light Level HUD Options.Block Range was corrected from null to its default, 16. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key Light Level HUD Options.Hide Safe Blocks was corrected from null to its default, false. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key Light Level HUD Options.Mob Spawn Light Threshold was corrected from null to its default, 7. 
+[17:04:25] [modloading-worker-18/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\config\treechop-common.toml is not correct. Correcting
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key permissions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key permissions.enabled was corrected from null to its default, true. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key permissions.canChooseNotToChop was corrected from null to its default, true. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key treeDetection was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key treeDetection.maxTreeBlocks was corrected from null to its default, 320. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key treeDetection.maxLeavesBlocks was corrected from null to its default, 1024. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key treeDetection.breakLeaves was corrected from null to its default, true. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key treeDetection.breakPersistentLeaves was corrected from null to its default, true. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key treeDetection.maxBreakLeavesDistance was corrected from null to its default, 7. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key treeDetection.blockTagForDetectingLogs was corrected from null to its default, treechop:choppables. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key treeDetection.blockTagForDetectingLeaves was corrected from null to its default, treechop:leaves_like. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key chopCounting was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key chopCounting.algorithm was corrected from null to its default, LOGARITHMIC. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key chopCounting.rounding was corrected from null to its default, NEAREST. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key chopCounting.canRequireMoreChopsThanBlocks was corrected from null to its default, false. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key chopCounting.logarithmic was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key chopCounting.logarithmic.a was corrected from null to its default, 10.0. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key chopCounting.linear was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key chopCounting.linear.chopsPerBlock was corrected from null to its default, 1.0. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key chopCounting.linear.baseNumChops was corrected from null to its default, 0.0. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key compatibility.general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key compatibility.general.preventChoppingOnRightClick was corrected from null to its default, false. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key compatibility.general.preventChopRecursion was corrected from null to its default, true. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key compatibility.general.choppingToolsBlacklist was corrected from null to its default, [#forge:saws, mekanism:atomic_disassembler]. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key compatibility.specific was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key compatibility.specific.projectMMO was corrected from null to its default, true. 
+[17:04:25] [modloading-worker-18/WARN]: Incorrect key compatibility.specific.carryOn was corrected from null to its default, true. 
+[17:04:25] [Worker-Main-11/INFO]: Reading Sub-Biomes json
+[17:04:25] [Forge Version Check/INFO]: [treechop] Starting version check at https://raw.githubusercontent.com/hammertater/treechop/main/update.json
+[17:04:25] [Worker-Main-11/INFO]: Reading json
+[17:04:25] [Worker-Main-11/INFO]: BYG: "Common Setup" Event Complete!
+[17:04:25] [Forge Version Check/INFO]: [treechop] Found status: UP_TO_DATE Current: 0.13.0 Target: null
+[17:04:25] [Forge Version Check/INFO]: [crafttweaker] Starting version check at https://updates.blamejared.com/get?n=crafttweaker&gv=1.16.5
+[17:04:26] [Forge Version Check/INFO]: [crafttweaker] Found status: BETA Current: 7.1.0.176 Target: 7.1.0.176
+[17:04:26] [Forge Version Check/INFO]: [mousetweaks] Starting version check at http://play.sourceruns.org/yalter/MouseTweaks/update.json
+[17:04:27] [Worker-Main-12/INFO]: CraftTweaker has loaded successfully!
+[17:04:27] [Worker-Main-11/INFO]: CraftTweaker client has loaded successfully!
+[17:04:27] [Worker-Main-10/INFO]: BYG: "Client Setup" Event Complete!
+[17:04:27] [Forge Version Check/INFO]: [mousetweaks] Found status: BETA Current: 2.14 Target: null
+[17:04:27] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:04:28] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 36.1.0 Target: null
+[17:04:28] [Forge Version Check/INFO]: [dsurround] Starting version check at https://raw.githubusercontent.com/OreCruncher/DynamicSurroundings2/master/version.json
+[17:04:28] [Forge Version Check/INFO]: [dsurround] Found status: BETA Current: 1.16.4-4.0.4.1 Target: null
+[17:04:28] [Forge Version Check/INFO]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.16.5
+[17:04:28] [Forge Version Check/INFO]: [controlling] Found status: BETA Current: 7.0.0.14 Target: 7.0.0.14
+[17:04:28] [Forge Version Check/INFO]: [jeitweaker] Starting version check at https://updates.blamejared.com/get?n=JEITweaker&gv=1.16.5
+[17:04:28] [Forge Version Check/INFO]: [jeitweaker] Found status: BETA Current: 1.0.1.14 Target: 1.0.1.14
+[17:04:29] [Worker-Main-9/INFO]: Number of SoundEvents cached: 1142
+[17:04:29] [Worker-Main-9/INFO]: Individual Sound Configurations
+[17:04:29] [Worker-Main-9/INFO]: ===============================
+[17:04:29] [Worker-Main-9/INFO]: minecraft:entity.sheep.ambient cull
+[17:04:29] [Worker-Main-9/INFO]: minecraft:entity.chicken.ambient cull
+[17:04:29] [Worker-Main-9/INFO]: minecraft:entity.cow.ambient cull
+[17:04:29] [Worker-Main-9/INFO]: minecraft:entity.pig.ambient cull
+[17:04:29] [Worker-Main-9/INFO]: minecraft:entity.llama.ambient cull
+[17:04:29] [Worker-Main-9/INFO]: minecraft:entity.wither.spawn cull 10
+[17:04:29] [Worker-Main-9/INFO]: minecraft:entity.wither.death cull 10
+[17:04:29] [Worker-Main-9/INFO]: minecraft:entity.dragon.spawn cull 10
+[17:04:29] [Worker-Main-9/INFO]: minecraft:entity.dragon.death cull 10
+[17:04:29] [Worker-Main-9/INFO]: Category Occlusion
+[17:04:29] [Worker-Main-9/INFO]: ==================
+[17:04:29] [Worker-Main-9/INFO]: voice -> true
+[17:04:29] [Worker-Main-9/INFO]: biomes -> true
+[17:04:29] [Worker-Main-9/INFO]: hostile -> true
+[17:04:29] [Worker-Main-9/INFO]: neutral -> true
+[17:04:29] [Worker-Main-9/INFO]: ambient -> true
+[17:04:29] [Worker-Main-9/INFO]: footsteps -> true
+[17:04:29] [Worker-Main-9/INFO]: master -> false
+[17:04:29] [Worker-Main-9/INFO]: CONFIG -> false
+[17:04:29] [Worker-Main-9/INFO]: toolbar -> true
+[17:04:29] [Worker-Main-9/INFO]: music -> false
+[17:04:29] [Worker-Main-9/INFO]: waterfall -> false
+[17:04:29] [Worker-Main-9/INFO]: record -> false
+[17:04:29] [Worker-Main-9/INFO]: spot -> true
+[17:04:29] [Worker-Main-9/INFO]: weather -> false
+[17:04:29] [Worker-Main-9/INFO]: block -> true
+[17:04:29] [Worker-Main-9/INFO]: player -> true
+[17:04:29] [Worker-Main-9/INFO]: Processing mobeffects:acoustics.json (/assets/dsurround/configs/mobeffects/acoustics.json)
+[17:04:29] [Worker-Main-9/INFO]: Processing environs:acoustics.json (/assets/dsurround/configs/environs/acoustics.json)
+[17:04:29] [Worker-Main-9/WARN]: Unable to locate sound 'mobeffects:jump'
+[17:04:29] [Render thread/INFO]: BYG: Compostible Blocks Added!
+[17:04:29] [Render thread/INFO]: BYG: Added Hoeable Blocks!
+[17:04:29] [Render thread/INFO]: BYG: Added Flammables!
+[17:04:29] [Render thread/INFO]: BYG: Added strippable Blocks...
+[17:04:29] [Render thread/INFO]: BYG: "Load Complete" Event Complete!
+[17:04:30] [Render thread/INFO]: OpenAL initialized.
+[17:04:30] [Render thread/INFO]: Enhanced sounds are enabled.  Will perform sound engine reconfiguration.
+[17:04:30] [SoundControl Sound Processor/INFO]: Threads allocated to SoundControl sound processor: 2
+[17:04:30] [Render thread/INFO]: Vendor: OpenAL Community
+[17:04:30] [Render thread/INFO]: Version: 1.1 ALSOFT 1.19.1
+[17:04:30] [Render thread/INFO]: Renderer: OpenAL Soft
+[17:04:30] [Render thread/INFO]: Extensions: AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_block_alignment AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFTX_events AL_SOFTX_filter_gain_ex AL_SOFT_gain_clamp_ex AL_SOFT_loop_points AL_SOFTX_map_buffer AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize
+[17:04:30] [Render thread/INFO]: Sound engine started
+[17:04:30] [Render thread/INFO]: Created: 256x256x0 jei:textures/atlas/gui.png-atlas
+[17:04:30] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[17:04:30] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[17:04:30] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17:04:30] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17:04:30] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[17:04:30] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17:04:30] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17:04:31] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[17:04:31] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17:04:31] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17:05:09] [Render thread/INFO]: Reading json
+[17:05:09] [Render thread/INFO]: Reading json
+[17:05:16] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:05:16] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:05:16] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:05:16] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:05:16] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:05:16] [Render thread/INFO]: Reloading ResourceManager: Default, byg-1.1.14.jar, TreeChop-1.16.4-0.13.0.jar, CraftTweaker-1.16.5-7.1.0.176.jar, MouseTweaks-2.14-mc1.16.2.jar, forge-1.16.5-36.1.0-universal.jar, AppleSkin-mc1.16.2-forge-1.0.14.jar, DynamicSurroundings-1.16.4-4.0.4.1.jar, Controlling-7.0.0.14.jar, JEITweaker-1.16.5-1.0.1.14.jar, jei-1.16.5-7.6.1.75.jar
+[17:05:17] [Render thread/INFO]: Loaded 7 recipes
+[17:05:17] [Render thread/INFO]: Loaded 927 advancements
+[17:05:17] [Render thread/INFO]: [com.blamejared.crafttweaker.CraftTweaker:giveFeedback:153]: CraftTweaker reload starting!
+[17:05:17] [Render thread/INFO]: [com.blamejared.crafttweaker.CraftTweaker:giveFeedback:153]: CraftTweaker reload complete!
+[17:05:17] [Render thread/INFO]: Reading json
+[17:05:17] [Render thread/INFO]: Reading json
+[17:05:28] [Render thread/INFO]: Attempt 1...
+[17:05:29] [Render thread/INFO]: Reading json
+[17:05:29] [Render thread/INFO]: Reading json
+[17:05:35] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:05:35] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:05:35] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:05:35] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:05:35] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:05:35] [Render thread/INFO]: Reloading ResourceManager: Default, byg-1.1.14.jar, TreeChop-1.16.4-0.13.0.jar, CraftTweaker-1.16.5-7.1.0.176.jar, MouseTweaks-2.14-mc1.16.2.jar, forge-1.16.5-36.1.0-universal.jar, AppleSkin-mc1.16.2-forge-1.0.14.jar, DynamicSurroundings-1.16.4-4.0.4.1.jar, Controlling-7.0.0.14.jar, JEITweaker-1.16.5-1.0.1.14.jar, jei-1.16.5-7.6.1.75.jar
+[17:05:36] [Render thread/INFO]: Loaded 7 recipes
+[17:05:36] [Render thread/INFO]: Loaded 927 advancements
+[17:05:36] [Render thread/INFO]: [com.blamejared.crafttweaker.CraftTweaker:giveFeedback:153]: CraftTweaker reload starting!
+[17:05:36] [Render thread/INFO]: [com.blamejared.crafttweaker.CraftTweaker:giveFeedback:153]: CraftTweaker reload complete!
+[17:05:36] [Render thread/INFO]: Reading json
+[17:05:36] [Render thread/INFO]: Reading json
+[17:05:46] [Render thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:05:46] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:05:46] [Render thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:05:46] [Render thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17:05:46] [Render thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17:05:46] [Render thread/INFO]: Reloading ResourceManager: Default, byg-1.1.14.jar, TreeChop-1.16.4-0.13.0.jar, CraftTweaker-1.16.5-7.1.0.176.jar, MouseTweaks-2.14-mc1.16.2.jar, forge-1.16.5-36.1.0-universal.jar, AppleSkin-mc1.16.2-forge-1.0.14.jar, DynamicSurroundings-1.16.4-4.0.4.1.jar, Controlling-7.0.0.14.jar, JEITweaker-1.16.5-1.0.1.14.jar, jei-1.16.5-7.6.1.75.jar
+[17:05:46] [Render thread/INFO]: Loaded 7 recipes
+[17:05:47] [Render thread/INFO]: Loaded 927 advancements
+[17:05:47] [Render thread/INFO]: [com.blamejared.crafttweaker.CraftTweaker:giveFeedback:153]: CraftTweaker reload starting!
+[17:05:47] [Render thread/INFO]: [com.blamejared.crafttweaker.CraftTweaker:giveFeedback:153]: CraftTweaker reload complete!
+[17:05:47] [Render thread/INFO]: Reading json
+[17:05:47] [Render thread/INFO]: Reading json
+[17:05:47] [Render thread/INFO]: Starting action 'stop'
+[17:05:47] [Render thread/INFO]: Overall Action 'stop' took 18msecs
+[17:05:47] [Render thread/INFO]: Clearing reload state (playerJoined: false, reloadFired: false, customTagsEventFired: false, vanillaTagsEventFired: false)
+[17:05:47] [Render thread/INFO]: TagsUpdatedEvent.VanillaTagTypes fired (playerJoined: false, reloadFired: false, customTagsEventFired: false, vanillaTagsEventFired: true)
+[17:05:47] [Render thread/INFO]: TagsUpdatedEvent.CustomTagTypes fired (playerJoined: false, reloadFired: false, customTagsEventFired: true, vanillaTagsEventFired: true)
+[17:05:47] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:05:47] [Server thread/INFO]: Starting integrated minecraft server version 1.16.5
+[17:05:47] [Server thread/INFO]: Generating keypair
+[17:05:47] [Server thread/WARN]: Configuration file C:\Users\Mari\Twitch\Minecraft\Instances\ShinyValley\saves\New World\serverconfig\forge-server.toml is not correct. Correcting
+[17:05:47] [Server thread/WARN]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[17:05:47] [Server thread/WARN]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[17:05:47] [Server thread/WARN]: Incorrect key server.removeErroringTileEntities was corrected from null to its default, false. 
+[17:05:47] [Server thread/WARN]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[17:05:47] [Server thread/WARN]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[17:05:47] [Server thread/WARN]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[17:05:47] [Server thread/WARN]: Incorrect key server.logCascadingWorldGeneration was corrected from null to its default, true. 
+[17:05:47] [Server thread/WARN]: Incorrect key server.fixVanillaCascading was corrected from null to its default, false. 
+[17:05:47] [Server thread/WARN]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to its default, 0. 
+[17:05:47] [Server thread/WARN]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[17:05:47] [Server thread/WARN]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[17:05:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:05:50] [Render thread/INFO]: Preparing spawn area: 0%
+[17:05:50] [Render thread/INFO]: Preparing spawn area: 0%
+[17:05:51] [Render thread/INFO]: Preparing spawn area: 3%
+[17:05:51] [Render thread/INFO]: Preparing spawn area: 9%
+[17:05:52] [Render thread/INFO]: Preparing spawn area: 12%
+[17:05:52] [Render thread/INFO]: Preparing spawn area: 15%
+[17:05:53] [Render thread/INFO]: Preparing spawn area: 25%
+[17:05:53] [Render thread/INFO]: Preparing spawn area: 25%
+[17:05:54] [Render thread/INFO]: Preparing spawn area: 38%
+[17:05:54] [Render thread/INFO]: Preparing spawn area: 38%
+[17:05:55] [Render thread/INFO]: Preparing spawn area: 49%
+[17:05:55] [Render thread/INFO]: Preparing spawn area: 55%
+[17:05:56] [Render thread/INFO]: Preparing spawn area: 59%
+[17:05:56] [Render thread/INFO]: Preparing spawn area: 65%
+[17:05:57] [Render thread/INFO]: Preparing spawn area: 71%
+[17:05:57] [Render thread/INFO]: Preparing spawn area: 78%
+[17:05:58] [Render thread/INFO]: Preparing spawn area: 85%
+[17:05:58] [Render thread/INFO]: Preparing spawn area: 90%
+[17:05:59] [Server thread/INFO]: BYG: "Server Starting" Event Complete!
+[17:05:59] [Render thread/INFO]: Time elapsed: 8978 ms
+[17:05:59] [Server thread/INFO]: Changing view distance to 11, from 10
+[17:06:00] [Netty Local Client IO #0/INFO]: Connected to a modded server.
+[17:06:00] [Server thread/INFO]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@68d55dbb
+[17:06:00] [Server thread/INFO]: CalaMariGold[local:E:354b2af4] logged in with entity id 194 at (-180.5, 68.0, 196.5)
+[17:06:00] [Server thread/INFO]: CalaMariGold joined the game
+[17:06:01] [Render thread/INFO]: Player login: CalaMariGold
+[17:06:01] [Render thread/INFO]: Sending chop settings sync request
+[17:06:01] [Server thread/INFO]: Received chop settings from player CalaMariGold
+[17:06:01] [Server thread/INFO]: Sending chop settings to player CalaMariGold
+[17:06:01] [Server thread/INFO]: Saving and pausing game...
+[17:06:01] [Render thread/INFO]: EntityJoinWorldEvent fired (playerJoined: true, reloadFired: false, customTagsEventFired: true, vanillaTagsEventFired: true)
+[17:06:01] [Render thread/INFO]: Starting action 'reload'
+[17:06:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:06:01] [Render thread/INFO]: Processing sndctrl:effects.json (/assets/dsurround/configs/sndctrl/effects.json)
+[17:06:01] [Render thread/INFO]: Processing environs:dimensions.json (/assets/dsurround/configs/environs/dimensions.json)
+[17:06:01] [Render thread/INFO]: Processing environs:biomes.json (/assets/dsurround/configs/environs/biomes.json)
+[17:06:01] [Render thread/INFO]: JavaScript engine provided: Oracle Nashorn
+[17:06:01] [Render thread/INFO]: Processing environs:blocks.json (/assets/dsurround/configs/environs/blocks.json)
+[17:06:01] [Render thread/INFO]: Processing mobeffects:mobeffects.json (/assets/dsurround/configs/mobeffects/mobeffects.json)
+[17:06:01] [Render thread/INFO]: Processing mobeffects:armor_accents.json (/assets/dsurround/configs/mobeffects/armor_accents.json)
+[17:06:01] [Render thread/INFO]: Processing mobeffects:variators.json (/assets/dsurround/configs/mobeffects/variators.json)
+[17:06:01] [Render thread/INFO]: Processing mobeffects:footsteps.json (/assets/dsurround/configs/mobeffects/footsteps.json)
+[17:06:01] [Render thread/INFO]: Overall Action 'reload' took 503msecs
+[17:06:01] [Render thread/INFO]: 39083 block states processed, 93 registry entries
+[17:06:01] [Render thread/INFO]: Starting JEI...
+[17:06:01] [Render thread/INFO]: Building ingredient list...
+[17:06:01] [Render thread/INFO]: Building ingredient list took 3.002 ms
+[17:06:01] [Render thread/INFO]: Building ingredient filter...
+[17:06:02] [Render thread/INFO]: Building ingredient filter took 230.7 ms
+[17:06:02] [Render thread/INFO]: Building bookmarks...
+[17:06:02] [Render thread/INFO]: Building bookmarks took 851.9 ?s
+[17:06:02] [Render thread/INFO]: Building recipe registry...
+[17:06:02] [Render thread/INFO]: Building recipe registry took 35.14 ms
+[17:06:02] [Render thread/INFO]: Building runtime...
+[17:06:02] [Render thread/INFO]: Building runtime took 35.54 ms
+[17:06:02] [Render thread/INFO]: Starting JEI took 529.4 ms
+[17:06:02] [Render thread/INFO]: Loaded 0 advancements
+[17:06:02] [Render thread/INFO]: Received chop settings from server
+[17:06:02] [Render thread/INFO]: JavaScript engine provided: Oracle Nashorn
+[17:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:06:12] [Server thread/INFO]: Saving and pausing game...
+[17:06:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:06:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:06:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:06:28] [Server thread/INFO]: Saving and pausing game...
+[17:06:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:06:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:06:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:06:49] [Server thread/INFO]: [CalaMariGold: Set own game mode to Survival Mode]
+[17:06:49] [Render thread/INFO]: [CHAT] Set own game mode to Survival Mode
+[17:07:12] [Server thread/INFO]: [CalaMariGold: Gave 1 [Stone Axe] to CalaMariGold]
+[17:07:12] [Render thread/INFO]: [CHAT] Gave 1 [Stone Axe] to CalaMariGold
+[17:07:17] [Render thread/INFO]: [CHAT] Install FTB GUI Library to access ingame config
+[17:07:19] [Render thread/INFO]: [CHAT] Install FTB GUI Library to access ingame config
+[17:07:26] [Server thread/INFO]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@411b239c
+[17:07:26] [Render thread/INFO]: Loaded 2 advancements
+[17:07:57] [Server thread/INFO]: Saving and pausing game...
+[17:07:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:07:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:07:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:07:58] [Render thread/INFO]: Starting action 'stop'
+[17:07:58] [Render thread/INFO]: Overall Action 'stop' took 5msecs
+[17:07:58] [Render thread/INFO]: Clearing reload state (playerJoined: true, reloadFired: true, customTagsEventFired: true, vanillaTagsEventFired: true)
+[17:07:58] [Server thread/INFO]: CalaMariGold lost connection: Disconnected
+[17:07:58] [Server thread/INFO]: CalaMariGold left the game
+[17:07:58] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[17:07:58] [Server thread/INFO]: Stopping server
+[17:07:58] [Server thread/INFO]: Saving players
+[17:07:58] [Server thread/INFO]: Saving worlds
+[17:07:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[17:07:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[17:07:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[17:07:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:07:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[17:07:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:07:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[17:07:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:07:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:08:00] [Render thread/INFO]: Stopping!
+[17:08:00] [Render thread/INFO]: Starting action 'stop'
+[17:08:00] [Render thread/INFO]: Overall Action 'stop' took 7msecs
+[17:08:00] [Render thread/INFO]: Clearing reload state (playerJoined: false, reloadFired: false, customTagsEventFired: false, vanillaTagsEventFired: false)

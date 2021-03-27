@@ -2,3 +2,12 @@
 minecraftinstance.json
 .curseclient
 minecraftinstance.json
+options.txt
+saves/
+usercache.json
+usernamecache.json
+logs/
+logs/latest.log
+logs/latest.log
+minecraftinstance.json
+.mixin.out/
