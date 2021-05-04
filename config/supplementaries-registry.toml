@@ -63,8 +63,8 @@
 		magma_cream_block = true
 		#WIP
 		laser_block = false
-		#WIP
 		flag = false
+		crimson_lantern = true
 
 	[registration.entities]
 		firefly = true
